@@ -24,9 +24,9 @@ sudo apt upgrade
 ![](./images/finaloutput.png)
 
 ## Part 3
-- the `-b` option for journalctl will print logs for the current boot. I searched for `boot` until i found the option.
+- the `-b` option for journalctl will print logs for the current boot. I searched for `boot` with `/` in vim until i found the option.
 ![](./images/bootoptionjournal.png)
-- the `-p` option for journalctl will have a priority of warning or more important just use `-p warning`. I searched for `warning` and found this
+- the `-p` option for journalctl will have a priority of warning or more important just use `-p warning`. I searched for `warning` with `/` in vim and found this
 ![](./images/poption.png)
 - the `--ouput=json` will put the output in a json file. I searched for json with `/json` then scrolled up to see the option which was `--output`. I can use the json-pretty to make it nicer
 ![](./images/jsonoutput.png)
